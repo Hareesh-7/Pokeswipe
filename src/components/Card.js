@@ -1,7 +1,7 @@
 // src/components/Card.js
 import React from 'react';
 import '../styles/Card.css';
-import { FaHeart } from 'react-icons/fa';
+// import { FaHeart } from 'react-icons/fa';
 
 const Card = ({ pokemon, onLike, onDislike, isLiked }) => {
     return (
@@ -12,7 +12,7 @@ const Card = ({ pokemon, onLike, onDislike, isLiked }) => {
             <div className="info-container">
                 <h2 className="pokemon-name">
                     {pokemon.name}
-                    <FaHeart className={`heart-icon ${isLiked ? 'liked' : 'disliked'}`} />
+                    {/* <FaHeart className={`heart-icon ${isLiked ? 'liked' : 'disliked'}`} /> */}
                 </h2>
                 <div className="pokemon-abilities">
                     <strong>Abilities:</strong>
