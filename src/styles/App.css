@@ -1,0 +1,50 @@
+/* src/styles/App.css */
+.app {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffcb05;
+    color: #2a75bb;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.controls button {
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a75bb;
+    color: #ffcb05;
+}
+
+/* src/styles/DarkMode.css */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .header {
+    background-color: #444;
+    color: #ffcb05;
+}
+
+.dark-mode .controls button {
+    background-color: #ffcb05;
+    color: #2a75bb;
+}
